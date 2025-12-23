@@ -1,0 +1,107 @@
+/* ================================
+   ESTILOS GENERALES
+================================ */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: #f5f5f5;
+    color: #222;
+    margin: 0;
+}
+
+/* ================================
+   CONTENEDORES
+================================ */
+
+header, main, footer {
+    max-width: 700px;
+    margin: 1.5rem auto;
+    padding: 1.2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* ================================
+   HEADER
+================================ */
+
+header {
+    text-align: center;
+    background-color: #8A6694;
+    color: #ffffff;
+}
+
+header img {
+    width: 140px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+header h1 {
+    margin: 0.3rem 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* ================================
+   MAIN
+================================ */
+
+main h2 {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.assignments {
+    list-style: none;
+    padding: 0;
+}
+
+.assignments li {
+    background-color: #f0eef3;
+    margin: 0.6rem 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.assignments a {
+    text-decoration: none;
+    color: #5a2a82;
+    font-weight: bold;
+}
+
+.assignments a:hover {
+    text-decoration: underline;
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+footer {
+    text-align: center;
+    background-color: #8A6694;
+    color: white;
+    font-size: 0.85rem;
+}
+
+footer a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
